@@ -1,0 +1,17 @@
+{
+  "name": "front-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": " node-sass assets/scss/main.scss -o assets/css",
+    "css:watch": "npm run css && node-sass  assets/scss/main.scss -wo assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^16.6.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.37.2"
+  }
+}
